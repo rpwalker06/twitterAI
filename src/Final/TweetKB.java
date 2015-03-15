@@ -34,7 +34,7 @@ public class TweetKB
 	{
 		//read the ranking on a particular digested tweet object
 		//this will subsequently affect the rankings in the overall knowledge base
-		double rankingConstant=influence.relativeRank*0.40;
+		double rankingConstant=influence.relativeRank*0.60;
 		
 		//add or subtract the ranking constant to the weights based on 
                 this.favorite_w = (influence.favorite_s > 1)? rankingConstant + influence.favorite_s: rankingConstant - influence.favorite_s;

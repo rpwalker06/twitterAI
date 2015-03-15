@@ -24,6 +24,7 @@ public class AI_Final {
 			System.out.println("Would you like to enter another search query?\n" +
 								"Enter a lowercase n for no, or any other number for yes");
 			keep_going = br.readLine();
+                        foo.printWeights();
 			
 						
 		} while (!keep_going.equals("n"));
@@ -52,7 +53,7 @@ public class AI_Final {
 							"on how you rank the resulting tweets.  You will be prompted for a string to search for\n" +
 							"as well as how many times you want to train the knowledge base.  The knowledge base will\n" +
 							"remember your preferences across searches.\n" +
-							"=============================================================================================");		
+							"=============================================================================================");
 		return;
 	}
 	

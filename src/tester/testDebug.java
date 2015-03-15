@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package tester;
 
 import Final.fuzzyStringMatcher;
@@ -12,9 +8,6 @@ import Final.fuzzyStringMatcher;
  */
 public class testDebug {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         
         System.out.println( fuzzyStringMatcher.fuzzyMatch("TEST", "TEST") );
